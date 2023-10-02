@@ -24,7 +24,7 @@ model=None
 
 from pathlib import Path
 import torch
-from calc import curl_calc
+from calc import curl_calc, pushup_count, shoulderPress, squat_calc
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
